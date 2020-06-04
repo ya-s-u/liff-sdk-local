@@ -1,0 +1,26 @@
+{
+  "name": "liff-sdk-local",
+  "version": "0.0.1",
+  "description": "LIFF(LINE Front-end Framework) SDK stubs locally.",
+  "main": "index.js",
+  "scripts": {
+    "build": "parcel build src/liff-sdk-local.ts -o liff-sdk-local.min.js --target browser --global liff --no-source-maps"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ya-s-u/liff-sdk-local.git"
+  },
+  "author": "ya_s_u",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ya-s-u/liff-sdk-local/issues"
+  },
+  "homepage": "https://github.com/ya-s-u/liff-sdk-local#readme",
+  "devDependencies": {
+    "@types/node": "^14.0.10",
+    "typescript": "^3.9.3"
+  },
+  "dependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}

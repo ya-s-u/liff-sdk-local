@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>LIFF SDK Local</title>
+		<script charset="utf-8" src="https://static.line-scdn.net/liff/edge/2/sdk.js"></script>
+		<script src="../dist/liff-sdk-local.min.js"></script>
+		<script>
+			liff.init({ liffId: "your-liff-id" });
+			liff.ready.then(() => {
+			  console.log(liff.id);
+				console.log(liff.isInClient());
+				liff.getProfile().then(profile => {
+				  console.log(profile)
+				})
+				liff.closeWindow()
+			})
+		</script>
+	</head>
+	<body></body>
+</html>
