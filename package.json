@@ -1,8 +1,8 @@
 {
   "name": "liff-sdk-local",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "LIFF(LINE Front-end Framework) SDK stubs locally.",
-  "main": "index.js",
+  "main": "dist/liff-sdk-local.min.js",
   "scripts": {
     "build": "parcel build src/liff-sdk-local.ts -o liff-sdk-local.min.js --target browser --global liff --no-source-maps"
   },
